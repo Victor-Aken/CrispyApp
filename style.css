@@ -1,0 +1,314 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #130037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form-container{
+    background: rgba(252, 252, 252, 0.08);
+    border: 0.792642px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 7px 21px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 15.8528px;
+    width: 595px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.container .form-container h2, .recover-password-container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+
+.container .form-container input[type="email"], .container .form-container input[type="password"], .container .form-container input[type="text"], .container .recov-email-container input[type="email"] {
+    width: 361px;
+    height: 64px;
+    border: 1px solid rgba(236, 236, 236, 0.5);
+    border-radius: 20px;
+    background-color: rgba(252, 252, 252, 0.08);
+    padding-left: 25px;
+    margin-bottom: 23px;
+    outline:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.login-container{
+    margin-top: 22px;
+}
+
+.container .form-container input[type="submit"]{
+    width: 361px;
+    height: 64px;
+    border: 1px solid rgba(236, 236, 236, 0.5);
+    border-radius: 20px;
+    background: linear-gradient(127.84deg, #F5A96D -27.31%, #F66696 71.86%);
+    padding-left: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.5s;
+}
+
+
+
+
+.container .form-container input[type="submit"]:hover, .container .recover-password-container input[type="submit"]:hover {
+    background: linear-gradient(127.84deg, #8130F3 -27.31%, #4C02B5 71.86%);
+}
+
+
+.container .form-container input[type="email"]::placeholder, .container .form-container input[type="password"]::placeholder{
+    height: 17px;
+    left: 25px;
+    top: 23px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+}
+
+.password-visibity{
+    display: inline;
+    margin-left: -48px;
+}
+.password-visibity img{
+    cursor: pointer;
+}
+
+#checked{
+    cursor: pointer;
+    display: none;
+}
+
+#unchecked{
+    width: 13px;
+    cursor: pointer;
+}
+
+
+
+.keep-signed-container{
+    display: flex;
+    align-items: center;
+}
+
+.terms-container{ 
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.terms-p{
+    width: 300px;
+    height: 30px;
+    left: 610px;
+    top: 558px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 10px;
+
+}
+
+.keep-signed-container image{
+  
+}
+
+.container .form-container .keep-signed{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 15px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.createAccount-p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-top: 25px;
+    text-align: center;
+
+}
+.forget-password-p{
+    text-align: center;
+    margin-top: 10px;
+}
+.createAccount-p a, .forget-password-p a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+/* Background image Styling */
+
+.margentaBall-img-container{
+    position: absolute;
+    width: 399px;
+    height: 426px;
+    left: 1056px;
+    top: -12px;
+    background: url(images/magenta\ ball.png);
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+}
+
+.ellipse-img-container{
+    position: absolute;
+    width: 166px;
+    height: 162px;
+    left: 260px;
+    top: 25px;
+    background: url(images/Ellipse\ 2.png);
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo-container{
+    position: absolute;
+    width: 142px;
+    height: 108px;
+    left: 82px;
+    top: 600px;
+    background: url(images/Cripsy\ Logomark\ dark\ 1.png);
+}
+
+.blue-ball-container{
+    position: absolute;
+    width: 390px;
+    height: 300px;
+    left: 850px;
+    top: 455px;
+    background: url(images/blue\ balls.png);
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+    /* filter: blur(50px); */
+}
+
+
+/* Recover Password Page Styling */
+
+.recover-password-container{
+
+    background: rgba(252, 252, 252, 0.08);
+    border: 0.792642px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 7px 21px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 15.8528px;
+    width: 595px;
+    height: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+
+}
+
+
+.recovery-link-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    width: 300px;
+    height: 30px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    margin-top: -10px;
+
+}
+
+.recov-email-container{
+   margin-top: 30px; 
+}
+
+.recov-link{
+    margin-top: -35px;
+}
+
+.container .recover-password-container input[type="submit"]{
+    width: 361px;
+    height: 64px;
+    border: 1px solid rgba(236, 236, 236, 0.5);
+    border-radius: 20px;
+    background: linear-gradient(127.84deg, #F5A96D -27.31%, #F66696 71.86%);
+    padding-left: 25px;
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.return-to-login{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.return-to-login a{
+    width: 104px;
+    height: 17px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}

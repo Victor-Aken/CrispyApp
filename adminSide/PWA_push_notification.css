@@ -1,0 +1,526 @@
+body{
+
+    background-color: #F8F5FA;
+
+ }
+
+
+
+.welcome-msg p{
+    margin-left: -218px;
+}
+
+
+/* ... DASHBOARD BUTTONS ... */
+.dashboard{ 
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 118px;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease-in-out; 
+}
+
+.dashboard a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+
+}
+
+.dashboard:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+
+/* ... PWA BUTTON ... */
+.pwa{
+    background: #8130F3;
+}
+.pwa:hover{
+    padding-left: 0px; 
+    background: #8130F3;
+
+}
+.pwa p{
+    color: #FFFFFF;
+}
+
+
+/* Settings Button */
+
+.setting_btn{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 510px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.setting_btn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+}
+.setting_btn:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+/* Custom Domain Button */
+.custom-page{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 580px;
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out; 
+}
+
+.custom-page p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+}
+
+.custom-page:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+
+
+/* ... CONTENT RIGHT ... */
+.custom_right_top{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom_right_top_left_p{
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.custom_right_top_right{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom_right_top_right .link{
+    width: 240px;
+    height: 50px;
+    background: #8130F3;
+    border-radius: 10px;
+    margin-left: 21px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.custom_right_top_right .download_btn{
+    width: 60px;
+    height: 50px;
+    background: rgba(245, 169, 109, 0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.custom_right_top_right .tune_btn{
+    width: 60px;
+    height: 50px;
+    background: rgba(149, 180, 187, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+
+}
+
+
+
+
+
+/* ... CONFIGURATION NOTIFICATION BUTTONS ... */
+.configuration_payment_btns{
+    width: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ... Notification Button ... */
+.configuration_payment_btns .payment_btn{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8130F3;
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.configuration_payment_btns .payment_btn p{
+    margin-left: 10px;
+}
+
+/* ... Configuration Button  ... */
+.configuration_payment_btns .configuration_btn{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8F5FA;
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.configuration_payment_btns .configuration_btn:hover{
+    background: #8130F330;
+
+}
+
+
+
+.configuration_payment_btns .configuration_btn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 10px;
+}
+
+/* ... LANGUAGE AND DEFAULT CHANNEL SECTION ... */
+.language_default_channel_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.right_side_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.language_default_channel_container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+
+.language_default_channel_container .save_configuration_btn{
+    width: 141px;
+    height: 52px;
+    background: #8130F3;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.heading_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+
+    color: #000000;
+}
+
+
+
+
+
+/* ... ICON INPUT SECTION ... */
+
+.icon_input_heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+
+.input-file{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    height: 55px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.934293px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+}
+
+.input-file input[type="file"]::-webkit-file-upload-button{
+    width: 210px;
+    height: 37px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+    color: #000000;
+    
+
+}
+
+.input-file input[type="file"]{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+/* ... INPUT SECTION ... */
+.domain-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.without-icon{
+    margin-top: 34px;
+}
+
+.domain-heading p{    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 12px;
+    color: #000000;
+}
+
+.input{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    font-size: 18px;
+}
+
+input:focus{
+    outline:  1.5px solid #8130F3;
+}
+
+
+.input input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+}
+
+.input input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #D9D9D9;
+}
+
+.some-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    color: #656565;
+}
+
+/* ... mid line ... */
+.ordering-mid-line{
+    height: 0px;
+    border: 1px solid #D2D2D2;
+    margin-top:40px;
+}
+
+
+/* Right Bottom */
+.right-bottom{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.right-bottom a{
+    width: 196px;
+    height: 64px;
+    padding: 20px 100px 20px 100px;
+    background: #8130F3;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #656565;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* ..... MEDIA QUERIES ..... */
+@media screen and (max-width:1440px){
+        
+
+    .welcome-msg p{
+        margin-left: -30px;
+    }
+
+}

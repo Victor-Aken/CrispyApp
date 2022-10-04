@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Main</title>
+    <link rel="stylesheet" href="adminDashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Mulish:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo"></div>
+
+        <section class="section-btw"></section>
+        <div class="line-cross"></div>
+
+        <div class="profile-container">
+
+            <div class="welcome-msg">
+                <p>Welcome back <span> Ododo!</span> You’ve successfully logged in.</p>
+                <div><img src="../images/cancel.png" alt=""></div>
+            </div>
+
+            <div class="profile-details">
+                <div class="profile-img-container">
+                    <img src="../images/Ododo Profile 1.png" alt="">
+                </div>
+                <p>Ododo Ginja</p>
+                <div class="icon">
+                    <img src="../images/arrow_drop_down_circle.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Side Menu Section -->
+        <section class="sideMenu">
+            <!-- <div class="logo"></div> -->
+            <div class="dashboard">
+                <a href="">
+                    <div class="grid-img">
+                        <img src="../images/grid_view.png" alt="">
+                    </div>
+                    <p>Dashboard</p>
+                </a>
+            </div>
+            <a href="" class="pwa">
+                <div class="grid-img">
+                    <img src="../images/web_asset.png" alt="">
+                </div>
+                <p>PWA</p>
+            </a>
+            <a href="" class="lead-finder">
+                <div class="grid-img">
+                    <img src="../images/person_search.png" alt="">
+                </div>
+                <p>Lead Finder</p>
+            </a>
+
+            <a href="" class="team">
+                <div class="grid-img">
+                    <img style="width: 24px;" src="../images/icons8-people-skin-type-7-30.png" alt="">
+                </div>
+                <p>Team</p>
+            </a>
+
+            <a href="" class="support">
+                <div class="grid-img">
+                    <img src="../images/support_agent.png" alt="">
+                </div>
+                <p>Support Desk</p>
+            </a>
+
+            <div class="line"></div>
+
+            <a href="setting.html" class="setting">
+                <div class="grid-img">
+                    <img src="../images/settings.png" alt="">
+                </div>
+                <p>Settings</p>
+            </a>
+            <a href="customDomain.html" class="custom">
+                <div class="grid-img">
+                    <img src="../images/language.png" alt="">
+                </div>
+                <p>Custom Domain</p>
+            </a>
+
+            <a href="" class="logout">
+                <div class="grid-img">
+                    <img src="../images/logout.png" alt="">
+                </div>
+                <p>Logout</p>
+            </a>
+
+        </section>
+    
+        <!-- Right Section -->
+        <section class="right">
+                
+            <!-- Cards Section -->
+            <div class="cards-container">
+                <div class="card card1">
+                    <div class="box box1">
+                        <img src="../images/store.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <h2>Total Stores</h2>
+                        <h1>6</h1>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="box box2">
+                        <img src="../images/sell.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <h2>Total Orders</h2>
+                        <h1>399</h1>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="box box3">
+                        <img src="../images/query_stats.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <h2>Total Page Views</h2>
+                        <h1>9093</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section Middle -->
+            <div class="right-middle">
+                <h2>Store</h2>
+                <div class="line2"></div>
+                <a href="create_story.html">
+                    <div class="create-store-icon">
+                        <img src="../images/add.png" alt="">
+                    </div>
+                    <h2>Create Store</h2>
+                </a>
+                <div style="padding-left: 14px;">
+                    <img src="../images/tune.png" alt="">
+                </div>
+            </div>
+
+            <!-- Right section Bottom -->
+            <div class="big-cards-container">
+                <div class="big-card">
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="big-card-header">
+                        <h2>Flower’s Kitchen</h2>
+                        <div  class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive">Active</p>
+                            <div class="active-icon">
+                                <img id="active-icon" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" style="display:none;" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-card">
+
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="big-card-header">
+                        <h2>Roland Chow</h2>
+                        <div class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive">Active</p>
+                            <div class="active-icon">
+                                <img id="active-icon" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" style="display:none;" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-card">
+
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="big-card-header">
+                        <h2>Kung FU Restaurant</h2>
+                        <div  class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive" style="color: #FF0000;">Inactive</p>
+                            <div class="active-icon">
+                                <img id="active-icon" style="display:none;" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-card">
+
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="big-card-header">
+                        <h2>Flower’s Kitchen</h2>
+                        <div  class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive">Active</p>
+                            <div class="active-icon">
+                                <img id="active-icon" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" style="display:none;" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-card">
+
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="big-card-header">
+                        <h2>Roland Chow</h2>
+                        <div  class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive">Active</p>
+                            <div class="active-icon">
+                                <img id="active-icon" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" style="display:none;" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-card">
+
+                    <!--Big Card Menu -->
+                    <div class="big-card-menu">
+                        <ul>
+                            <li class="li-top"><div><img src="../images/qr_code.png" alt=""></div><a href="">Qr Code</a></li>
+                            <li><div><img src="../images/ads_click (1).png" alt=""></div><a href="">View Store</a></li>
+                            <li><div><img src="../images/sell (1).png" alt=""></div><a href="">Orders</a></li>
+                            <li><div><img src="../images/query_stats (2).png" alt=""></div><a href="">Statistics</a></li>
+                            <li><div><img src="../images/database.png" alt=""></div><a href="">Order Statistics</a></li>
+                            <li><div><img src="../images/store (1).png" alt=""></div><a href="">Store</a></li>
+                            <li><div><img src="../images/drive_file_rename_outline (1).png" alt=""></div><a href="">Edit</a></li>
+                            <li class="li-bottom"><div><img src="../images/delete.png" alt=""></div><a href="">Delete</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="big-card-header">
+                        <h2>Kung FU Restaurant</h2>
+                        <div  class="show-menu"><img src="../images/more_vert.png" alt=""></div>
+                    </div>
+                    <div class="bag-card-site">
+                        <div style="margin-top:5px;"><img src="../images/ads_click.png" alt=""></div>
+                        <div class="site">
+                            <a href="">www.flowerskitchen.com/haygawd/cooking</a>
+                        </div>
+                    </div>
+
+                    <div class="big-card-order">
+                        <div style="margin-top: 3px;"><img src="../images/notifications_active.png" alt=""></div>
+                        <p><span class="order-no">399 Orders </span>-<span>12.9% conversion rate</span></p>
+                    </div>
+
+                    <div class="big-card-currency">
+                        <div style="margin-top: 3px;"><img src="../images/payments.png" alt=""></div>
+                        <p>USD currency</p>
+                    </div>
+
+                    <div class="big-card-timezone">
+                        <div style="margin-top: 3px;"><img src="../images/schedule.png" alt=""></div>
+                        <p>UTC Timezone</p>
+                    </div>
+
+                    <div class="big-card-calender">
+                        <div style="margin-top: 3px;"><img src="../images/calendar_month.png" alt=""></div>
+                        <p>Create on 10 August, 2022</p>
+                    </div>
+
+                    <div class="big-card-footer">
+                        <div class="page_views" style="margin-top: 3px;">
+                            <img src="../images/query_stats (1).png" alt="">
+                            <p>9093 Pageviews</p>
+                        </div>
+                        <div class="big-card-active">
+                            <p class="active-inactive" style="color: #FF0000;">Inactive</p>
+                            <div class="active-icon">
+                                <img id="active-icon" style="display:none;" src="../images/toggle_on.png" alt="">
+                                <img id="inactive-icon" src="../images/toggle_off.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="adminDashboard.js"></script>
+</body>
+</html>
