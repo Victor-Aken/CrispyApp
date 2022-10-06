@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PWA Configuration</title>
+    <title>Lead Finder</title>
     <link rel="stylesheet" href="adminDashboard.css">
-    <link rel="stylesheet" href="PWA_configuration.css">
+    <link rel="stylesheet" href="lead_finder.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Mulish:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -58,15 +58,15 @@
                     <p>Dashboard</p>
                 </a>
             </div>
-            <a href="" class="pwa">
+            <a href="PWA_configuration.html" class="pwa">
                 <div class="grid-img">
-                    <img src="../images/web_asset (2).png" alt="">
+                    <img src="../images/web_asset.png" alt="">
                 </div>
                 <p>PWA</p>
             </a>
-            <a href="lead_finder.html" class="lead-finder">
+            <a href="" class="lead-finder">
                 <div class="grid-img">
-                    <img src="../images/person_search.png" alt="">
+                    <img src="../images/person_search (1).png" alt="">
                 </div>
                 <p>Lead Finder</p>
             </a>
@@ -113,136 +113,43 @@
         <!-- Right Section -->
         <section class="right">
 
-            <!-- .....CONFIGURATION NOTIFICATION BTNS .....-->
-            <div class="configuration_payment_btns">
+            <!-- .....FIND AND MANAGE LEAD BTNS .....-->
+            <div class="find_manage_lead_btns">
                 <!-- Account Btn -->
-                <a href="" class="configuration_btn">
-                   <p>Configuration</p>
+                <a href="lead_finder.html" class="find_lead_btn">
+                   <p>Find Lead</p>
                 </a>
 
                 <!-- Payment Btn -->
-                <a href="PWA_push_notification.html" class="payment_btn">
-                    <p>Notification</p>
+                <a href="manage_lead.html" class="manage_lead_btn">
+                    <p>Manage Leads</p>
                  </a>
             </div>
 
+            <p class="some_text">Search for restaurant leads from Google My Google. You can enter any niche and location. Please note that some results might have a better lead score than others.</p>
 
-            <!-- .... SELECT LANGUAGE AND DEFAULT CHANNEL ..... -->
-            <div class="language_default_channel_container">
 
-                <div class="right_side_container">
-                    <h2>Configuration</h2>
+              <!-- Line Through -->
+              <div class="ordering-mid-line"></div>
 
-                    <select name="" id="" class="default_channel_select">
-                        <option value="">Default Channel</option>
-                    </select>
 
-                    <select name="" id="" class="language_select">
-                        <option value="">English</option>
-                    </select>
+            <!-- Input Search Details -->
+            <div class="top_container">
+                <p>Find active Leads on our robust Lead Finder</p>
+            </div>
+
+            <div class="input_section">
+                <div>
+                    <input type="text" placeholder="Enter keyword ">
+                    <input type="text" placeholder="Enter Location">
+                    <input type="text" placeholder="Radius">
                 </div>
-
-                <button class="save_configuration_btn">Save</button>
-            </div>
-
-
-             <!-- Line Through -->
-             <div class="ordering-mid-line"></div>
-
-             <h2 class="heading_text">General</h2>
-
-
-             <!-- Input Section -->
-            <div class="domain-heading without-icon">
-                <p style="margin-left: 0px;">Name</p>
-                <p>[Roland]</p>
-            </div>
-            <div class="input">
-                <input type="text">
-            </div>
-
-             <!-- Input Section -->
-             <div class="domain-heading without-icon">
-                <p style="margin-left:0;">Short Name</p>
-                <p>[Roland]</p>
-            </div>
-            <div class="input">
-                <input type="text">
-            </div>
-
-             <!-- Input Section -->
-            <div class="domain-heading without-icon">
-                <p style="margin-left:0;">Theme Color</p>
-                <p>[Roland]</p>
-            </div>
-            <div class="input">
-                <input type="text">
-            </div>
-
-            <!-- Input Section -->
-            <div class="domain-heading without-icon">
-                <p style="margin-left:0;">Background Color</p>
-                <p>[Roland]</p>
-            </div>
-            <div class="input">
-                <input type="text">
-            </div>
-           
-
-             <!-- Line Through -->
-             <div class="ordering-mid-line"></div>
-
-
-             <h2 class="heading_text">Media</h2>
-
-
-             <div class="app_icon_file_input_container">
-                <p>App Icon 48 x 48</p>
-
-                <div class="input-file">
-                    <input type="file">
+                <div class="input_inner_container">
+                    <button class="search_btn"><i class="fa-solid fa-magnifying-glass"></i>&nbsp; Search</button>
                 </div>
-
-             </div>
-
-             <div class="app_icon_file_input_container">
-                <p>App Icon 96 x 96</p>
-
-                <div class="input-file">
-                    <input type="file">
-                </div>
-                
-             </div>
-
-             <div class="app_icon_file_input_container">
-                <p>App Icon 144 x 144</p>
-
-                <div class="input-file">
-                    <input type="file">
-                </div>
-                
-             </div>
-
-             
-    
-
-
-            <!-- Line Through -->
-            <div class="ordering-mid-line"></div>
-             
-            <h2 class="heading_text">Push Notification</h2>
-
-            
-            <!-- Input Section -->
-            <div class="domain-heading without-icon">
-                <p style="margin-left:0;">Topic</p>
-                <p>[Roland - En]</p>
-            </div>
-            <div class="input">
-                <input type="text">
             </div>
 
-            
+         
 
             <div class="mode">
                 <div><img style="margin-top: 4px;" src="../images/light_mode.png" alt=""></div>

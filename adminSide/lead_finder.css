@@ -1,0 +1,479 @@
+
+ body{
+
+    background-color: #F8F5FA;
+
+ }
+
+
+
+.welcome-msg p{
+    margin-left: -218px;
+}
+
+
+/* ... DASHBOARD BUTTONS ... */
+.dashboard{ 
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 118px;
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease-in-out; 
+}
+
+.dashboard a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+
+}
+
+.dashboard:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+
+/* ... LEAD FINDER BUTTON ... */
+.lead-finder{
+    background: #8130F3;
+}
+.lead-finder:hover{
+    padding-left: 0px; 
+    background: #8130F3;
+
+}
+.lead-finder p{
+    color: #FFFFFF;
+}
+
+
+
+
+/* Settings Button */
+
+.setting_btn{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 510px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.setting_btn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+}
+.setting_btn:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+/* Custom Domain Button */
+.custom-page{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 32px;
+    top: 580px;
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out; 
+}
+
+.custom-page p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 16px;
+}
+
+.custom-page:hover{
+    background: rgba(129, 48, 243, 0.3);
+    color: white;
+    padding-left: 8px;
+}
+
+
+
+
+/* ... CONTENT RIGHT ... */
+
+
+
+
+
+
+/* ... FIND AND MANAGE LEAD BUTTONS ... */
+.find_manage_lead_btns{
+    width: 36vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ... Find Lead Button ... */
+.find_manage_lead_btns .find_lead_btn{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8130F3;
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.find_manage_lead_btns .find_lead_btn p{
+    margin-left: 10px;
+}
+
+/* ... Manage Lead Button  ... */
+.find_manage_lead_btns .manage_lead_btn{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8F5FA;
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.find_manage_lead_btns .manage_lead_btn:hover{
+    background: #8130F330;
+
+}
+
+
+
+.find_manage_lead_btns .manage_lead_btn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    margin-left: 10px;
+}
+
+
+.some_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+
+    color: #000000;
+    margin-top: 40px;
+
+}
+
+
+/* .... INPUT SEARCH DETAILS SECTION .... */
+
+
+.top_container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+
+.input_section{
+    display: flex;
+}
+
+.input_section input{
+    width: 199px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #0B0021;
+
+}
+.input_section input:focus{
+    border: 1px solid #8130F3;
+}
+
+.input_section input:nth-child(1), .input_section input:nth-child(2){
+    margin-right: 20px;
+}
+
+
+
+
+.input_inner_container{
+    margin-left: 20px;
+    display: flex;
+}
+
+
+.input_inner_container .search_btn{
+    width: 199px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #8130F3;
+    cursor: pointer;
+}
+.input_inner_container .search_btn:hover{
+    box-shadow: 0 0 0 0.2rem hsl(208deg 6% 54% / 50%);
+}
+
+
+
+/* ... SEARCH RESULT STYLING ... */
+.search_results_cards_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.search_results_cards_container .search_result_card{
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px 30PX 20PX 30PX;
+    border-radius: 8px;
+}
+
+.search_results_cards_container .search_result_card .info{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_results_cards_container .search_result_card .info .star_rating_container{
+    font-size: 13px;
+    color: purple;
+}
+
+.search_results_cards_container .search_result_card .info p:nth-child(1){
+    font-weight: 700;
+    font-size: 16px;
+    color: #191847;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+/* ... mid line ... */
+.ordering-mid-line{
+    height: 0px;
+    border: 1px solid #D2D2D2;
+    margin-top:40px;
+}
+
+
+
+
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #656565;
+    cursor: pointer;
+    margin-top: 30px;
+
+    position: absolute;
+    right: 60px;
+    bottom: 16px;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* ..... MEDIA QUERIES ..... */
+@media screen and (max-width:1440px){
+        
+
+    .welcome-msg p{
+        margin-left: -30px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:1325px){
+    .search_results_cards_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .input_section input{
+        width: 130px;
+        height: 45px;
+        font-size: 16px;
+
+    }
+
+        
+    .input_inner_container .search_btn{
+        width: 130px;
+        height: 45px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:680px) {
+    
+
+    .search_results_cards_container{
+        grid-template-columns: 1fr;
+    }
+
+        
+    .top_container p{
+        font-size: 26px;
+    }
+
+        
+    .input_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+        
+    .input_inner_container{
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+        
+    .input_section input:nth-child(1), .input_section input:nth-child(2){
+        margin-right: 6px;
+    }
+
+
+  
+}
+
+
+@media screen and (max-width:400px) {
+         
+    .input_section input{
+        width: 110px;
+        height: 30px;
+        font-size: 13px;
+
+
+    }
+
+    .input_section input:nth-child(1){
+        margin-right: 6px;
+    }
+
+
+
+    .top_container{
+        margin-bottom: 30px;
+    }
+    
+    .top_left{
+        font-weight: 700;
+        font-size: 16px;
+        margin-right: 30px;
+    }
+    
+    .top_right .search_btn{
+        height: 30px;
+        width: 100px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+   
+}
+
+
