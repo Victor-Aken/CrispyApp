@@ -15,6 +15,12 @@ header{
     justify-content: space-between;
     padding: 0 40px;
     height: 100px;
+
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 5;
+    transition: all 0.3s ease;
 }
 
 header .logo_store_name_container{
@@ -70,7 +76,7 @@ header a{
 /* ... MAIN CONTAINER ... */
 .main_container{
     padding: 0 60px 40px 60px;
-    margin-top: 30px;
+    margin-top: 140px;
 }
 
 .main_container .heading{
@@ -102,7 +108,7 @@ header a{
 .store_details_btns_container{
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    
 }
 
 .store_details_btns_container button{
@@ -273,11 +279,16 @@ header a{
 }
 
 .socials h2{
+    margin-right: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     color: #000000;
+}
+
+.socials div{
+    margin-right: 8px;
 }
 
 
@@ -328,4 +339,236 @@ header a{
 
 .mode p{
     margin-left: 8px;
+}
+
+
+
+
+
+/* ... MEDIA QUERIES ... */
+@media screen and (max-width:1230px) {
+    .socials{
+        width: 28vw;
+    }
+    
+}
+
+@media screen and (max-width:940px){
+
+    .menu_items_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .socials{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+         
+    .store_details_btns_container{
+      flex-direction: column;
+    }
+
+        
+    .store_details_btns_container button{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:780px) {
+
+        
+    .logo_store_name_container .logo_container{
+        margin-right: 4px;
+    }
+        
+    .logo_store_name_container .logo_container img{
+        width: 80px;
+    }
+            
+    .logo_store_name_container .store_name_container h2{
+        font-size: 20px;
+    }
+
+    .logo_store_name_container .store_name_container p{
+        font-size: 12px;
+    }
+
+    header a{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    header a img{
+        width: 16px;
+    }
+
+
+}
+ 
+
+
+@media screen and (max-width:640px) {
+
+    header{
+        padding: 0 30px 0 20px;
+    }
+
+
+
+    .main_container{
+        padding: 0 12px 40px 20px;
+    }
+
+
+                        
+    .main_container .heading h2{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .main_container .heading p{
+        font-size: 14px;
+    }
+
+
+
+        
+    /* ... STORE DETAILS TOP BUTTONS ... */
+    
+    .store_details_btns_container button{
+        margin-right: 0px;
+    }
+    .store_details_btns_container button img{
+        width: 12px;
+    }
+
+    .store_details_btns_container button:nth-child(1){
+        width: 220px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .store_details_btns_container button:nth-child(2){
+        width: 160px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .store_details_btns_container button:nth-child(3){
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .store_details_btns_container button:nth-child(4){
+        width: 110px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+
+        
+    .menu_heading h2{
+        font-size: 20px;
+    }
+
+
+
+
+    
+    .menu_items_container{
+        grid-template-columns: 1fr;
+    }
+
+    .socials{
+        width: 50vw;
+    }
+
+    .socials h2{
+        font-size: 18px;
+    }
+
+    .socials img{
+        width: 15px;
+    }
+}
+
+
+@media screen and (max-width:499px) {
+    
+    header{
+        padding: 0 10px;
+    }
+
+
+    .logo_store_name_container .store_name_container h2{
+        font-size: 14px;
+    }
+
+    .logo_store_name_container .store_name_container p{
+        font-size: 8px;
+    }
+
+    header a{
+        width: 80px;
+        height: 30px;
+        font-size: 8px;
+        border-radius: 8px;
+    }
+
+    header a img{
+        width: 12px;
+    }
+
+
+
+
+    .logo_store_name_container .logo_container img{
+        width:30px;
+    }
+
+
+
+    
+    .main_container{
+        padding: 0 12px 40px 12px;
+    }
+
+    .socials{
+        width: 62vw;
+    }
+
+
+
+    .copyright{
+
+        font-size: 10px;
+    }
+
+
+   
+
+    .mode .mode_container p{
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .mode .mode_container img{
+        width: 18px;
+    }
+
+
+
+
 }

@@ -15,6 +15,12 @@ header{
     justify-content: space-between;
     padding: 0 40px;
     height: 100px;
+
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 5;
+    transition: all 0.3s ease;
 }
 
 header .logo_store_name_container{
@@ -70,12 +76,10 @@ header a{
 /* ... MAIN CONTAINER ... */
 .main_container{
     padding: 0 60px 40px 60px;
-    margin-top: 30px;
+    margin-top: 140px;
 }
 
 /* ... PATH ... */
-
-
 .path{
     display: flex;
     align-items: center;
@@ -167,6 +171,105 @@ header a{
 }
 
 
+/* ... MENU ITEMS CARDS ... */
+.menu_cards_container{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.menu_cards_container .menu_card{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(128, 127, 127, 0.3);
+}
+
+.menu_cards_container .menu_card .image_container img{
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+.menu_cards_container .menu_card .item_details{
+    padding: 30px 50px 20px 20px;
+}
+
+.menu_cards_container .menu_card .item_details .item_title{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #000000;
+}
+
+.menu_cards_container .menu_card .item_details .item_description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+
+.menu_cards_container .menu_card .item_details .item_price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+.menu_cards_container .menu_card .item_details .item_price span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+
+.menu_cards_container .menu_card .item_details .add_to_cart_btn_container{
+    margin-top: 60px;
+}
+
+.menu_cards_container .menu_card .item_details .add_to_cart_btn_container button{
+    width: 150px;
+    height: 40px;
+    left: 317.76px;
+    top: 206.79px;
+
+    background: #8130F3;
+    border-radius: 9.48551px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
 
 
 /*  ... SOCIALS ... */
@@ -234,4 +337,245 @@ header a{
 
 .mode p{
     margin-left: 8px;
+}
+
+
+
+
+
+
+
+/* ... MEDIA QUERIES ... */
+
+@media screen and (max-width:1460px) {
+    
+    /* ... MENU ITEMS CARDS ... */
+    .menu_cards_container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu_cards_container .menu_card{
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        border: 1px solid rgba(19, 0, 55, 0.1);
+        border-radius: 20px;
+        box-shadow: 0 5px 10px rgba(128, 127, 127, 0.3);
+    }
+
+    .menu_cards_container .menu_card .image_container img{
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+    }
+
+
+
+        
+    .menu_cards_container .menu_card .item_details .item_title{ 
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 2px;
+        color: #000000;
+    }
+
+    .menu_cards_container .menu_card .item_details .item_description{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+
+
+    .menu_cards_container .menu_card .item_details .add_to_cart_btn_container{
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1230px) {
+    .socials{
+        width: 28vw;
+    }
+    
+}
+
+
+@media screen and (max-width:840px){
+    .menu_cards_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .socials{
+        width: 38vw;
+    }
+
+}
+
+
+@media screen and (max-width:780px){
+          
+    .logo_store_name_container .logo_container{
+        margin-right: 4px;
+    }
+        
+    .logo_store_name_container .logo_container img{
+        width: 80px;
+    }
+            
+    .logo_store_name_container .store_name_container h2{
+        font-size: 20px;
+    }
+
+    .logo_store_name_container .store_name_container p{
+        font-size: 12px;
+    }
+
+    header a{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    header a img{
+        width: 16px;
+    }
+}
+
+
+@media screen and (max-width:612px) {
+    .menu_cards_container{
+        grid-template-columns: 1fr;
+    }
+
+    .socials{
+        width: 50vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 540px){
+        header{
+            padding: 0 30px;
+        }
+
+
+        .logo_store_name_container .store_name_container h2{
+            font-size: 14px;
+        }
+
+        .logo_store_name_container .store_name_container p{
+            font-size: 8px;
+        }
+
+        header a{
+            width: 80px;
+            height: 30px;
+            font-size: 8px;
+            border-radius: 8px;
+        }
+
+        header a img{
+            width: 12px;
+        }
+
+
+
+
+        .logo_store_name_container .logo_container img{
+            width:30px;
+        }
+
+
+
+        
+        .main_container{
+            padding: 0 30px 40px 30px;
+            margin-top: 120px;
+        }
+
+
+                
+        /* ... PATH ... */
+        .path p{   
+            font-size: 10px;
+        }
+
+
+       
+
+        .main_container .heading h2{
+            font-size: 18px;
+        }
+
+        .main_container .heading p{
+            font-size: 14px;
+            margin-top: 2px;
+        }
+
+
+                
+        .store_details_btns_container button{
+            margin-right: 10px;
+        }
+
+        .store_details_btns_container button:nth-child(1){
+            border: none;
+            width: 100px;
+            height: 30px;
+            background: rgba(245, 169, 109, 0.3);
+            border-radius: 8px;
+            font-size: 10px;
+        }
+
+        .store_details_btns_container button:nth-child(2){
+            border: none;
+            width: 100px;
+            height: 30px;
+            border-radius: 8px;
+            font-size: 10px;
+        }
+
+
+
+
+
+
+        .socials{
+            width: 62vw;
+        }
+
+        .socials h2{
+            font-size: 18px;
+        }
+    
+        .socials img{
+            width: 15px;
+        }
+
+
+        .copyright{
+
+            font-size: 10px;
+        }
+
+
+    
+
+        .mode .mode_container p{
+            font-size: 16px;
+            margin-left: 4px;
+        }
+
+        .mode .mode_container img{
+            width: 18px;
+        }
 }

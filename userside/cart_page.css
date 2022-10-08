@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100px;
+
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 5;
+    transition: all 0.3s ease;
+}
+
+header .logo_store_name_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo_store_name_container .logo_container{
+    margin-right: 16px;
+}
+
+.logo_store_name_container .logo_container img{
+    width: 100px;
+}
+
+.logo_store_name_container .store_name_container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+
+}
+
+.logo_store_name_container .store_name_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656565;
+}
+
+header a{
+    width: 130px;
+    height: 50px;
+    background: #8130F3;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+/* ... MAIN CONTAINER ... */
+.main_container{
+    padding: 0 60px 40px 60px;
+    margin-top: 140px;
+}
+
+/* ... PATH ... */
+.path{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+ }
+ 
+
+.main_container .heading{
+   
+}
+
+.main_container .heading h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.main_container .heading p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 4px;
+}
+
+
+
+/* ... CART ITEMS ... */
+.cart_items_contianer{
+    margin-top: 30px;
+}
+
+.cart_items_contianer .cart_item{
+    height: 160px;
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(128, 127, 127, 0.3);
+
+    display: flex;
+    align-items: center;
+}
+
+.cart_items_contianer .cart_item .item_img{
+    height: 160px;
+}
+.cart_items_contianer .cart_item .item_img img{
+    height: 100%;
+
+    border-radius: 20px;
+}
+
+.cart_items_contianer .cart_item .item_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.cart_items_contianer .cart_item .item_title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.item_details .item_quantity_container .item_quantity{
+    display: flex;
+    align-items: center;
+}
+
+
+.item_details .item_quantity_container .item_quantity p{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+    margin-right: 3px;
+}
+
+.item_details .item_quantity_container .item_quantity input{
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: #0B0021;
+
+}
+
+.item_quantity_container .remove_item_btn{
+    margin-top: 8px;
+}
+
+
+.item_quantity_container .remove_item_btn button{
+    border: none;
+    background-color: rgba(97, 4, 228, 0.7);
+    ;
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.item_price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+.item_price span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+
+.total_price_container{
+    height: 80px;
+    background: #8130F3;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px ;
+    margin-top: 30px;
+}
+
+.total_price_container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.971px;
+    color: #FFFFFF;
+}
+
+.total_price_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+
+/* ... INPUT SECTION ... */
+.input_container{
+    margin-top: 50px;
+}
+
+.input_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.input_container input{
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.934293px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.message input{
+    height: 100px;
+}
+
+
+.order_btn{
+    margin-top: 50px;
+}
+
+.order_btn button{
+    width: 300px;
+    height: 60px;
+    background: #8130F3;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+
+/*  ... SOCIALS ... */
+.socials{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.socials h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+
+
+/* ... mid line ... */
+.ordering-mid-line{
+    height: 0px;
+    width: 100%;
+    border: 1px solid #D2D2D2;
+    margin-top: 50px;
+}
+
+
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #656565;
+    cursor: pointer;
+    margin-top: 30px;
+
+    /* position: absolute;
+    right: 60px;
+    bottom: 16px; */
+}
+
+.copyright{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+
+.mode div{
+    display: flex;
+    align-items: center;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+
