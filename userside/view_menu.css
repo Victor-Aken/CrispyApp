@@ -579,3 +579,18 @@ header a{
             width: 18px;
         }
 }
+
+
+@media screen and (max-width:499px) {
+      
+    header{
+        padding: 0 10px;
+    }
+
+    
+    .main_container{
+        padding: 0 12px 40px 12px;
+    }
+
+
+}

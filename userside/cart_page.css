@@ -85,11 +85,14 @@ header a{
     align-items: center;
     margin-bottom: 14px;
  }
+
+ .path img{
+    margin-top: 5px; 
+    margin-right: 10px; 
+    margin-left: 10px;
+ }
  
 
-.main_container .heading{
-   
-}
 
 .main_container .heading h2{
     font-family: 'Inter';
@@ -125,6 +128,7 @@ header a{
 
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .cart_items_contianer .cart_item .item_img{
@@ -299,6 +303,11 @@ header a{
     height: 100px;
 }
 
+.message p:nth-child(3){
+    margin-top: 6px; 
+    font-size: 16px;
+}
+
 
 .order_btn{
     margin-top: 50px;
@@ -389,3 +398,269 @@ header a{
 }
 
 
+
+
+
+
+/* ... MEDIA QUERIES ... */
+@media screen and (max-width:1130px) {
+    .socials{
+        width: 28vw;
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+
+         
+    .cart_items_contianer .cart_item{
+        height: 200px;
+    }
+
+    .cart_items_contianer .cart_item .item_img{
+        height: 200px;
+    }
+        
+    .cart_items_contianer .cart_item .item_details{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 20px 60px ;
+    }
+
+}
+
+@media screen and (max-width:799px){
+    .socials{
+        width: 38vw;
+    }
+}
+
+
+    @media screen and (max-width:720px){
+            
+        .logo_store_name_container .logo_container{
+            margin-right: 4px;
+        }
+            
+        .logo_store_name_container .logo_container img{
+            width: 80px;
+        }
+                
+        .logo_store_name_container .store_name_container h2{
+            font-size: 20px;
+        }
+    
+        .logo_store_name_container .store_name_container p{
+            font-size: 12px;
+        }
+    
+        header a{
+            width: 100px;
+            height: 40px;
+            font-size: 12px;
+        }
+    
+        header a img{
+            width: 16px;
+        }
+
+    
+    
+    .cart_items_contianer .cart_item{
+        display: flex;
+        align-items: center;
+
+        
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .cart_items_contianer .cart_item .item_img{
+        height: fit-content;
+        width: 100%;
+    }
+
+    .cart_items_contianer .cart_item .item_img img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .cart_items_contianer .cart_item .item_details{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 40px 40px 30px 40px ;
+    }
+
+        
+    .cart_items_contianer .cart_item .item_title p{
+        margin-bottom: 10px;
+    }
+
+    .item_details .item_quantity_container .item_quantity{
+       margin-bottom: 10px;
+    }
+
+        
+    .item_quantity_container .remove_item_btn{
+       margin-bottom: 10px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:599px) {
+    header{
+        padding: 0 30px;
+    }
+
+
+    .logo_store_name_container .store_name_container h2{
+        font-size: 14px;
+    }
+
+    .logo_store_name_container .store_name_container p{
+        font-size: 8px;
+    }
+
+    header a{
+        width: 80px;
+        height: 30px;
+        font-size: 8px;
+        border-radius: 8px;
+    }
+
+    header a img{
+        width: 12px;
+    }
+
+
+
+
+    .logo_store_name_container .logo_container img{
+        width:30px;
+    }
+
+
+
+    
+    .main_container{
+        padding: 0 30px 40px 30px;
+        margin-top: 120px;
+    }
+
+     /* ... PATH ... */
+     .path p{   
+        font-size: 10px;
+    }
+
+        
+    .path img{
+        width: 6px;
+        margin-right: 4px; 
+        margin-left: 4px;
+    }
+
+        
+
+    .main_container .heading h2{
+        font-size: 18px;
+        color: #000000;
+        margin-right: 50px;
+    }
+
+
+    .input_container{
+        margin-top: 30px;
+    }
+
+    .input_container p{
+        font-size: 16px;
+    }
+    
+    .input_container input{
+        width: 100%;
+        height: 45px;
+    
+        font-size: 14px;
+    }
+
+
+    .message p:nth-child(3){
+        margin-top: 6px; 
+        font-size: 14px;
+    }
+
+        
+    .order_btn{
+        margin-top: 50px;
+    }
+
+    .order_btn button{
+        width: 140px;
+        height: 40px;
+        border-radius: 8px;
+
+        font-size: 16px;
+    }
+
+
+    .socials{
+        width: 50vw;
+    }
+
+    .socials h2{
+        font-size: 18px;
+    }
+
+    .socials img{
+        width: 15px;
+    }
+
+
+    .copyright{
+
+        font-size: 10px;
+    }
+
+
+
+
+    .mode .mode_container p{
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .mode .mode_container img{
+        width: 18px;
+    }
+
+
+  
+}
+
+@media screen and (max-width:499px){
+
+    header{
+        padding: 0 10px;
+    }
+
+    
+    .main_container{
+        padding: 0 12px 40px 12px;
+    }
+
+    .socials{
+        width: 62vw;
+    }
+}
