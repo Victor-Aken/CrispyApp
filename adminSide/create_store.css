@@ -17,7 +17,6 @@ body{
    display: flex;
    align-items: center;
    margin-top: 15px;
-   /* margin-left: 54px; */
 
 }
 
@@ -38,8 +37,6 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-
     margin-top: 25px;
     color: #000000;
 }
@@ -98,6 +95,7 @@ body{
     line-height: 19px;
     margin-top: 16px;
     color: #656565;
+    margin-bottom: 50px;
 }
 
 
@@ -108,8 +106,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* width: 70vw; */
 }
 
 .title-side{
@@ -169,8 +165,7 @@ body{
 
 /* .... RIGHT BOTTOM .... */
 .right-bottom{
-    margin-top: 71px;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .right-bottom p{   
@@ -180,13 +175,11 @@ body{
     font-size: 16px;
     line-height: 19px;
     color: #656565;
-    margin-bottom: 38px;
-
+    margin-bottom: 30px;
 }
 
+
 .right-bottom a{
-    width: 468px;
-    height: 62px;
     padding: 22px 186px 22px 195px;
     background: #8130F3;
     border-radius: 10px;
@@ -196,10 +189,31 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
+
+
+.mode{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #656565;
+    margin-top: 40px;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+.mode img{
+    margin-top: 5px;
+}
 
 
 

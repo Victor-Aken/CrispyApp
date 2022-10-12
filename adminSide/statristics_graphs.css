@@ -1,5 +1,4 @@
 
-
  body{
 
     background-color: #F8F5FA;
@@ -8,8 +7,10 @@
 
 
 
+
+
 .welcome-msg p{
-    margin-left: -218px;
+   margin-left: -218px;
 }
 
 
@@ -21,6 +22,13 @@
     /* margin-right: 60px; */
     padding-bottom: 16px;
     border-bottom: 1px solid #D2D2D2;
+
+
+    /* width: 72vw; */
+}
+
+.success-create-top-container div:nth-child(4) a{
+    color: #8130F3;;
 }
 
 
@@ -41,7 +49,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
     padding-left: 8px;
     color: #000000;
     width: fit-content;
@@ -54,8 +61,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
-    padding-left: 8px;
     color: #000000;
     width: fit-content;
 }
@@ -78,8 +83,16 @@
     color: #000000;
 }
 
-.store-created-title{
+
+.store_title_and_carlender{
     margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-created-title{
+   
 }
 
 .store-created-title .store-title{
@@ -109,82 +122,78 @@
 
 }
 
-
-/* Right Middle Section */
-
-.right-middle{
-    padding-left: 0px;
-    margin-top: 30px;
-}
-
-.right-middle h2{
-    width: fit-content;
-}
-
-.right-middle .line2{
-    margin-left: 14px;
-}
-
-.right-middle a{
-    margin-left: 36px;
-    width: 300px;
-    padding: 0 20px;
-}
-
-.right-middle a h2{
-    padding: 0;
-    margin-top: 4px;
-    margin-left: 3px;
-}
-
-.right-middle a img{
-    width: 12px;
-}
-
-
-
-
-
-.person-sitting-container{
-    height: 400px;
+.store_title_and_carlender .carlender{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
 
-        
-    background: rgba(255, 255, 255, 0.5);
-    border: 0.843511px solid rgba(19, 0, 55, 0.1);
-    border-radius: 16.8702px;
+    width: 300px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 0 12px;
 }
 
-.person-sitting-container .para1{
+.store_title_and_carlender .carlender img{
+    margin-right: 8px;
+    width: 16px;
+}
+
+.store_title_and_carlender .carlender p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* ... GRAPH ... */
+.graph_container{
+    margin-top: 40px;
+    height: 574px;
+
+    background: #FFFF;
+    border: 0.843511px solid rgba(19, 0, 55, 0.1);
+    border-radius: 16px;
+}
+
+
+.progress_bar_card_container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.progress_bar_card_container .progress_bar_card{
+    height: 476px;
+    background: #FFFFFF;
+    border: 0.804054px solid rgba(19, 0, 55, 0.1);
+    border-radius: 16px;
+
+    padding: 40px 30px;
+}
+
+.progress_bar_card_container .progress_bar_card .card_title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 16.8702px;
-    line-height: 20px;
+    font-size: 16px;
 
     color: #000000;
-
 }
 
-.person-sitting-container .para2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13.4962px;
-    line-height: 16px;
-    margin-top: 10px;
-    color: #000000;
 
-}
+
+
+
+
 
 .mode{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: flex-end;
+    padding-bottom: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -205,12 +214,12 @@
 
 
 
-/* ..... MEDIA QUERIES ..... */
-@media screen and (max-width:1440px){
+/* .... MEDIA QUERIES .... */
+@media screen and (max-width:1440px) {
         
-
     .welcome-msg p{
         margin-left: -30px;
     }
-
+    
+ 
 }

@@ -290,6 +290,7 @@
 /* ... SEARCH RESULT STYLING ... */
 .search_results_cards_container{
     margin-top: 50px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
@@ -297,9 +298,10 @@
 
 .search_results_cards_container .search_result_card{
     background-color: white;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 30px 30PX 20PX 30PX;
+    box-shadow: 0 5px 10px rgba(0, 0, 10, 0.2);
+    padding: 30px 16px;
     border-radius: 8px;
+    font-family: 'inter', sans-serif;
 }
 
 .search_results_cards_container .search_result_card .info{
@@ -321,6 +323,22 @@
     margin-right: 20px;
 }
 
+.search_results_cards_container .search_result_card .info p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 200px;
+    height: fit-content;
+    word-wrap: break-word;
+    font-size: 15px;
+}
+
+.search_results_cards_container .search_result_card .info p:nth-child(2) a{
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 200px;
+    height: fit-content;
+    word-wrap: break-word;
+}
 
 
 

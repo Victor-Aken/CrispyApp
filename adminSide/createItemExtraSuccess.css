@@ -24,7 +24,6 @@
 }
 
 .success-create-top{
-    margin-top: 40px;
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -162,7 +161,7 @@
 
 .itemExtra-cards-container{
     padding-top: 30px;
-
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
@@ -171,8 +170,7 @@
 
 .itemExtra-cards-container .itemExtra-card{
     height: fit-content;
-    /* background: rgba(255, 255, 255, 0.5); */
-
+    box-shadow: 0 5px 10px rgba(0, 0, 10, 0.2);
     background-color: white;
     border-radius: 15.8528px;
     padding-left: 30px;
@@ -239,46 +237,11 @@
 
 .itemExtra-cards-container .itemExtra-card .status p{
     margin-right: 6px;
-}
-
-
- 
-/* Media Query */
-
-/* 
-@media screen and (max-width:1548px){
-
-    .itemExtra-cards-container{
-        column-gap: 20px;
-    }
-    
-    
-} */
-
-
-
-@media screen and (max-width:1460px){
-/* 
-        
-    .itemExtra-cards-container{
-        grid-template-columns: repeat(3, 300px);
-        column-gap: 20px;
-        row-gap: 20px;
-    }
-
-    .itemExtra-cards-container .itemExtra-card{
-        width: 300px;
-    }
-
-
-    .itemExtra-cards-container .itemExtra-card .status{
-        width: 300px;
-    }
-     */
-}
-
-@media screen and (max-width:1374px){
-    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #029C2D;
 }
 
 

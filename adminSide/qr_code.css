@@ -1,0 +1,520 @@
+
+ body{
+
+    background-color: #F8F5FA;
+
+ }
+
+
+
+
+
+.welcome-msg p{
+   margin-left: -218px;
+}
+
+
+
+.success-create-top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 60px; */
+    padding-bottom: 16px;
+    border-bottom: 1px solid #D2D2D2;
+
+
+    /* width: 72vw; */
+}
+
+.success-create-top-container div:nth-child(2) a{
+    color:  #8130F3;
+}
+
+
+.success-create-top{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.success-create-top .img-icon{
+    margin-top: 4px;
+}
+
+.success-create-top p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    width: fit-content;
+}
+
+
+.success-create-top-link{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    padding-left: 8px;
+    color: #000000;
+    width: fit-content;
+}
+
+
+.dashboard-Store{
+   display: flex;
+   align-items: center;
+   margin-top: 35px;
+}
+
+.dashboard-Store p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 8px;
+    color: #000000;
+}
+
+.store-created-title{
+    margin-top: 14px;
+}
+
+.store-created-title .store-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    color: #000000;
+
+}
+
+.store-created-title .store-link{
+    display: flex;
+}
+
+.store-created-title .store-link p{
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 13px;
+    color: #656565;
+
+}
+
+
+/* ... QR CODE CONFIGURATOR ... */
+.qrcode_configurator_container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}
+
+.qrcode_configurator_container .qr_configurator{
+    /* width: 589px;
+    height: 442px; */
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+}
+
+.qrcode_configurator_container .qr_configurator .qr_configurator_top{
+    /* width: 589px; */
+    height: 87px;
+    background: rgba(129, 48, 243, 0.08);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.qrcode_configurator_container .qr_configurator .qr_configurator_top h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.qr_configurator_body{
+    padding: 30px 40px;
+}
+
+.qr_configurator_body .color_setting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qr_configurator_body .color_setting p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.qr_configurator_body .color_setting .foreground_color{
+    width: 218px;
+    height: 62px;  
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.qr_configurator_body .color_setting .foreground_color .color{
+    width: 200px;
+    height: 44px;
+    background: #1C1B1F;
+    border-radius: 5px;
+}
+
+
+
+
+.qr_configurator_body .color_setting .background_color{
+    width: 218px;
+    height: 62px;  
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.qr_configurator_body .color_setting .background_color .color{
+    width: 200px;
+    height: 44px;
+    background: rgba(40, 0, 119, 0.25);
+    border-radius: 5px;
+}
+
+.qr_configurator_body .corner_radius{
+    margin-top: 30px;
+}
+
+.qr_configurator_body .corner_radius p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.qr_configurator_body .qrtype_error_correction{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.qr_configurator_body .qrtype_error_correction .qrtype_container{
+
+}
+
+
+.qr_configurator_body .qrtype_error_correction .qrtype_container p{
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 4px;
+    margin-left: 3px;
+
+}
+
+.qr_configurator_body .qrtype_error_correction .qrtype_container select{
+    width: 218px;
+    height: 38px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1.07382px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 6px;
+    color: #656565;
+}
+
+.qr_configurator_body .qrtype_error_correction .error_correction_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 4px;
+    margin-left: 3px;
+}
+.qr_configurator_body .qrtype_error_correction .error_correction_container select{
+    width: 218px;
+    height: 38px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1.07382px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 6px;
+    color: #656565;
+}
+
+
+.qrcode{
+    /* width: 429px;
+    height: 429px; */
+
+        
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+}
+
+
+
+/* ... PRINT AND DOWNLOAD BUTTONS ... */
+.print_download_btns_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.print_download_btns_container .print_download_btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.print_download_btns_container .print_download_btns .print_btn{
+    width: 180px;
+    height: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 0, 55, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.print_download_btns_container .print_download_btns .print_btn img{
+    margin-right: 4px;
+}
+
+
+.print_download_btns_container .print_download_btns .download_btn{
+    width: 180px;
+    height: 60px;
+    background: #8130F3;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.print_download_btns_container .print_download_btns .download_btn img{
+    margin-right: 4px;
+}
+
+.print_download_btns_container .text{
+    width: 400px;
+    margin-top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656565;
+    text-align: right;
+}
+
+
+
+
+
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #656565;
+    margin-top: 15px;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+.mode img{
+    margin-top: 5px;
+    
+}
+
+
+
+
+
+/* .... MEDIA QUERIES .... */
+@media screen and (max-width:1440px) {
+        
+    .welcome-msg p{
+        margin-left: -30px;
+    }
+    
+ 
+}
+
+@media screen and (max-width:1340px) {
+
+
+        
+    .qr_configurator_body .color_setting p{
+        font-size: 15px;
+    }
+        
+    .qr_configurator_body .color_setting .foreground_color{
+        width: 160px;
+        height: 54px;  
+    }
+
+    .qr_configurator_body .color_setting .foreground_color .color{
+        width: 142px;
+        height: 36px;
+    }
+
+
+
+
+    .qr_configurator_body .color_setting .background_color{
+        width: 160px;
+        height: 54px;  
+    }
+
+    .qr_configurator_body .color_setting .background_color .color{
+        width: 142px;
+        height: 36px;
+    }
+
+        
+    .qr_configurator_body .corner_radius p{
+        font-size: 15px;
+    }
+
+
+
+                                    
+
+    .qr_configurator_body .qrtype_error_correction .qrtype_container p{
+            
+        font-size: 15px;
+
+    }
+
+    .qr_configurator_body .qrtype_error_correction .qrtype_container select{
+        width: 160px;
+        height: 38px;
+        outline: none;
+
+        font-size: 15px;
+    }
+
+    .qr_configurator_body .qrtype_error_correction .error_correction_container p{
+        font-size: 15px;
+    }
+    .qr_configurator_body .qrtype_error_correction .error_correction_container select{
+        width: 160px;
+        height: 38px;
+        outline: none;
+
+        font-size: 15px;
+    }
+
+
+        
+    .print_download_btns_container .print_download_btns{
+        width: 300px;
+    }
+    .print_download_btns_container .print_download_btns .print_btn{
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .print_download_btns_container .print_download_btns .download_btn{
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+
+    .print_download_btns_container .text{
+        width: 300px;
+        font-size: 13px;
+    }
+
+
+
+}

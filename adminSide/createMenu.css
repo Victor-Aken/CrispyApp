@@ -123,8 +123,8 @@
 /* ... RIGHT BOTTOM ...  */
 
 .right-bottom{
-    margin-top: 71px;
-    margin-bottom: 20px;
+   padding-bottom: 40px;
+   margin-top: 50px;
 }
 
 .right-bottom a{
@@ -149,18 +149,14 @@
 .mode{
     display: flex;
     align-items: center;
-    position: absolute;
-    width: 49px;
-    height: 24px;
-    left: 90vw;
-    top: 980px;
+    justify-content: flex-end;
     padding-bottom: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-
+    margin-top: 20px;
     color: #656565;
 
 }

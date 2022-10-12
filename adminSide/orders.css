@@ -19,17 +19,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-right: 60px; */
     padding-bottom: 16px;
     border-bottom: 1px solid #D2D2D2;
-    padding-right: 40px;
-    margin-left: 54px;
-    width: 72vw;
 }
 
 
 .success-create-top{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -45,7 +41,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
     padding-left: 0px;
     color: #000000;
     width: fit-content;
@@ -69,7 +64,6 @@
    display: flex;
    align-items: center;
    margin-top: 35px;
-   margin-left: 54px;
 }
 
 .dashboard-Store p{
@@ -77,14 +71,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
     padding-right: 8px;
     color: #000000;
 }
 
 .store-created-title{
-    margin-left: 54px;
     margin-top: 14px;
 }
 
@@ -121,7 +112,6 @@
    display: flex;
    align-items: center;
    margin-top: 35px;
-   margin-left: 54px;
 }
 
 .dashboard-Store p{
@@ -129,8 +119,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
     padding-right: 8px;
     color: #000000;
 }
@@ -139,22 +127,21 @@
 
 /* Orders Cards*/
 .orders_container{
-    margin-left: 54px;
     margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 70px;
-    flex-wrap: wrap;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .order_card{
-    width: 340px;
-    height: fit-content;
     padding-left: 30px;
     padding-top: 30px;
+    padding-right: 20px;
     background: white;
     border-radius: 15.8528px;
     margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 10, 0.2);
 }
 
 .order_card h2{
@@ -162,7 +149,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 19.0234px;
+    font-size: 19px;
     line-height: 23px;
     color: #8130F3;
 }
@@ -190,8 +177,8 @@
     align-items: center;
     justify-content: space-between;
     margin-left: -30px;
-    width: 340px;
-    height: 55.38px;
+    margin-right: -20px;
+    height: 55px;
     background: rgba(245, 169, 109, 0.15);
     border-radius: 0 0  15.8528px 15.8528px;
     padding-left: 30px;
@@ -244,26 +231,45 @@
 
 
 
-
 .mode{
     display: flex;
     align-items: center;
-    position: absolute;
-    width: 49px;
-    height: 24px;
-    left: 90vw;
-    top: 900px;
-    padding-bottom: 30px;
+    justify-content: flex-end;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
-
     color: #656565;
-
+    margin-top: 20px;
 }
 
 .mode p{
     margin-left: 8px;
+}
+
+.mode img{
+    margin-top: 5px;
+}
+
+
+
+
+
+/* .... MEDIA QUERIES .... */
+@media screen and (max-width:1440px) {
+        
+    .welcome-msg p{
+        margin-left: -30px;
+    }
+    
+ 
+}
+
+@media screen and (max-width:1280px) {
+        
+    /* Orders Cards*/
+    .orders_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }

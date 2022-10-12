@@ -1,5 +1,4 @@
 
-
  body{
 
     background-color: #F8F5FA;
@@ -8,8 +7,10 @@
 
 
 
+
+
 .welcome-msg p{
-    margin-left: -218px;
+   margin-left: -218px;
 }
 
 
@@ -21,11 +22,18 @@
     /* margin-right: 60px; */
     padding-bottom: 16px;
     border-bottom: 1px solid #D2D2D2;
+
+
+    /* width: 72vw; */
+}
+
+.success-create-top-container div:nth-child(4) a{
+    color: #8130F3;;
 }
 
 
 .success-create-top{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -41,7 +49,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
     padding-left: 8px;
     color: #000000;
     width: fit-content;
@@ -54,8 +61,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
-    padding-left: 8px;
     color: #000000;
     width: fit-content;
 }
@@ -78,8 +83,16 @@
     color: #000000;
 }
 
-.store-created-title{
+
+.store_title_and_carlender{
     margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-created-title{
+   
 }
 
 .store-created-title .store-title{
@@ -109,44 +122,37 @@
 
 }
 
+.store_title_and_carlender .carlender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-/* Right Middle Section */
-
-.right-middle{
-    padding-left: 0px;
-    margin-top: 30px;
-}
-
-.right-middle h2{
-    width: fit-content;
-}
-
-.right-middle .line2{
-    margin-left: 14px;
-}
-
-.right-middle a{
-    margin-left: 36px;
     width: 300px;
-    padding: 0 20px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 0 12px;
 }
 
-.right-middle a h2{
-    padding: 0;
-    margin-top: 4px;
-    margin-left: 3px;
+.store_title_and_carlender .carlender img{
+    margin-right: 8px;
+    width: 16px;
 }
 
-.right-middle a img{
-    width: 12px;
+.store_title_and_carlender .carlender p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
 }
-
 
 
 
 
 .person-sitting-container{
     height: 400px;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,33 +190,36 @@
 .mode{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    position: absolute;
+    width: 49px;
+    height: 24px;
+    left: 90vw;
+    top: 900px;
+    padding-bottom: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    line-height: 24px;
+
     color: #656565;
-    margin-top: 20px;
+
 }
 
 .mode p{
     margin-left: 8px;
 }
 
-.mode img{
-    margin-top: 5px;
-}
 
 
 
 
-
-/* ..... MEDIA QUERIES ..... */
-@media screen and (max-width:1440px){
+/* .... MEDIA QUERIES .... */
+@media screen and (max-width:1440px) {
         
-
     .welcome-msg p{
         margin-left: -30px;
     }
-
+    
+ 
 }

@@ -30,7 +30,7 @@ body{
 
 
 .success-create-top{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -369,6 +369,28 @@ input:focus{
 
 
     color: #FFFFFF;
+}
+
+
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #656565;
+    margin-top: 20px;
+}
+
+.mode p{
+    margin-left: 8px;
+}
+
+.mode img{
+    margin-top: 5px;
 }
 
 

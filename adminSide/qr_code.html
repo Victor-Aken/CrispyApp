@@ -1,13 +1,14 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Menu Success</title>
+    <title>QR CODE</title>
     <link rel="stylesheet" href="adminDashboard.css">
-    <link rel="stylesheet" href="createMenuSuccess.css">
+    <link rel="stylesheet" href="qr_code.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Mulish:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -50,7 +51,7 @@
         <!-- Side Menu Section -->
         <section class="sideMenu">
             <div class="dashboard">
-                <a href="">
+                <a href="adminDashboard.html">
                     <div class="grid-img">
                         <img src="../images/grid_view.png" alt="">
                     </div>
@@ -112,19 +113,19 @@
         <section class="right">
             <div class="success-create-top-container">
     
-                    <div class="success-create-top">
-                        <div class="img-icon"><img src="../images/store (1).png" alt=""></div>
-                        <p>
-                            <a href="" class="success-create-top-link">
-                                Store
-                            </a>
-                        </p>
-                    </div>
+                <div class="success-create-top">
+                    <div class="img-icon"><img src="../images/store (1).png" alt=""></div>
+                    <p>
+                        <a href="" class="success-create-top-link">
+                            Store
+                        </a>
+                    </p>
+                </div>
 
                 <div class="success-create-top">
                     <div class="img-icon"><img src="../images/qr_code.png" alt=""></div>
                     <p>
-                        <a href="qr_code.html" class="success-create-top-link">
+                        <a href="" class="success-create-top-link">
                             QR Code
                         </a>
                     </p>
@@ -169,17 +170,20 @@
                 <div class="success-create-top">
                     <div class="img-icon"><img src="../images/delete.png" alt=""></div>
                     <p>
-                        <a href="" class="success-create-top-link">Delete</a>
-                    </p>
+                            <a href="" class="success-create-top-link">
+                                Delete
+                            </a>
+                        </p>
                 </div>
             </div>
+
 
             <div class="dashboard-Store">
                 <p>Dashboard</p>
                 <div><img style="margin-top: 5px; margin-right: 10px;" src="../images/arrow_forward_ios.png" alt=""></div>
                 <p>Store</p>
                 <div><img style="margin-top: 5px; margin-right: 10px;" src="../images/arrow_forward_ios.png" alt=""></div>
-                <p>Menu</p>
+                <p>Store QR</p>
             </div>
 
             <div class="store-created-title">
@@ -190,24 +194,74 @@
                 </div>
             </div>
 
-            <!-- Right Middle -->
-            <div class="right-middle">
-                <h2>CATEGORIES</h2>
-                <div class="line2"></div>
-                <a href="createCategory.html">
-                    <div class="create-store-icon">
-                        <img src="../images/add.png" alt="">
+            <!-- QR CODE CONFIGURATOR CONTAINER -->
+            <div class="qrcode_configurator_container">
+                <div class="qr_configurator">
+                    <div class="qr_configurator_top">
+                        <h2>QR Configurator</h2>
                     </div>
-                    <h2>Create Category</h2>
-                </a>
+
+                    <div class="qr_configurator_body">
+                        <div class="color_setting">
+                            <div class="foreground_color_container">
+                                <p>Foreground color</p>
+                                <div class="foreground_color">
+                                    <div class="color"></div>
+                                </div>
+                            </div>
+                            <div class="background_color_container">
+                                <p>Background color</p>
+                                <div class="background_color">
+                                    <div class="color"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="corner_radius">
+                            <p>Corner radius</p>
+                        </div>
+
+                        <div class="qrtype_error_correction">
+                            <div class="qrtype_container">
+                                <p>QR Type</p>
+                                <select name="" id="">
+                                    <option value="">Normal</option>
+                                    <option value="">Insert Custom text</option>
+                                    <option value="">Insert Custom Logo</option>
+                                </select>
+                            </div>
+
+                            <div class="error_correction_container">
+                                <p>Error correction capability</p>
+                                <select name="" id="">
+                                    <option value="">L - Low (7%)</option>
+                                    <option value="">M - Medium (15%)</option>
+                                    <option value="">Q - High (25%)</option>
+                                    <option value="">H - Best (30%)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qrcode"></div>
             </div>
 
-            <div class="person-sitting-container">
-                <div><img src="../images/Capture (2).PNG" alt=""></div>
-                <p class="para1">There are no catergories for this menu</p>
-                <p class="para2">Start by creating your category.</p>
+            <div class="print_download_btns_container">
+                <div class="print_download_btns">
+                    <button class="print_btn">
+                        <div><img src="../images/picture_as_pdf.png" alt=""></div> Print
+                    </button>
+
+                    <button class="download_btn">
+                        <div><img src="../images/download.png" alt=""></div> Download
+                    </button>
+                </div>
+
+                <p class="text">This QR code is meant to be downloaded, printed and placed onto where your store customers can see and access it.</p>
             </div>
 
+           
             <div class="mode">
                 <div><img src="../images/light_mode.png" alt=""></div>
                 <p>Light</p>

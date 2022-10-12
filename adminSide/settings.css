@@ -458,17 +458,14 @@ input:focus{
 .mode{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
     color: #656565;
-    margin-left: 54px;
-    margin-right: 5vw;
     cursor: pointer;
+    position: absolute;
+    right: 56px;
 }
 
 .mode p{
